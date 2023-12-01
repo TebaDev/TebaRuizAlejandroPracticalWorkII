@@ -1,0 +1,48 @@
+.header{
+    height: 100px;
+    background-color: white;
+    border-bottom:3px solid #8CC1FF;
+    display: flex;
+    width: 100%;
+}
+
+.header_container{
+    margin: auto;
+    width: 940px;
+    background-color: white;
+    display: flex;
+}
+
+.home_button{
+    width: 85px;
+    height: 85px;
+    border-right:3px solid #8CC1FF;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.navigation{
+    margin: auto;
+    width: 940px;
+    background-color: white;
+    display: flex;
+}
+
+.navigation_image{
+    width: 20px;
+    height: 20px;
+    padding-right: 10px;
+    padding-left: 20px;
+}
+
+.navigation_text{
+    width: 130px;
+    height: 31px;   
+    color: #8CC1FF; 
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
