@@ -1,48 +1,50 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
 .header{
+    background-color: rgb(244, 164, 164);
     height: 100px;
-    background-color: white;
-    border-bottom:3px solid #8CC1FF;
-    display: flex;
-    width: 100%;
-}
-
-.header_container{
-    margin: auto;
-    width: 940px;
-    background-color: white;
+    margin: 20px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
     display: flex;
 }
 
-.home_button{
-    width: 85px;
-    height: 85px;
-    border-right:3px solid #8CC1FF;
-    padding-right: 20px;
-    padding-left: 20px;
+.menuBorder{
+    border: 2px solid rgb(169, 228, 241);
+    border-radius: 10px;
+    margin-bottom: 5px;
+    margin: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
-.navigation{
-    margin: auto;
-    width: 940px;
-    background-color: white;
-    display: flex;
+.content{
+    background-color: rgb(153, 233, 143);
+    height: 600px;
+    margin-bottom: 5px;
 }
 
-.navigation_image{
-    width: 20px;
-    height: 20px;
-    padding-right: 10px;
-    padding-left: 20px;
+.footer{
+    background: linear-gradient(to top, rgb(169, 228, 241), rgb(255, 255, 255));
+    height: 100px;
+    
 }
 
-.navigation_text{
-    width: 130px;
-    height: 31px;   
-    color: #8CC1FF; 
-    text-align: center;
-    font-family: Inter;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
+.menuImage{
+    
+}
+
+.menuVerticalBorder{
+    border: 2px solid rgb(169, 228, 241);
+    border-radius: 10px;
+    width: 2px;
+    height: 100px;
+    margin-left: 15px;
+    margin-right: 15px;
 }
