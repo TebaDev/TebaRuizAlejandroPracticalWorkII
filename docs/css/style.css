@@ -93,7 +93,7 @@
     font-size: 30px;
 }
 
-.aboutIntroText {
+.text {
     margin-left: 20px;
     color: rgb(94, 110, 112);
     font-family: 'Lucida Grande';
@@ -101,3 +101,47 @@
     flex-direction: column;
     margin-top: 10px;
 }
+
+.topicTitle {
+    color: rgb(169, 228, 241);
+    font-family: 'Lucida Grande';
+    font-size: 50px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.topicSubtitle {
+    color: rgb(169, 228, 241);
+    font-family: 'Lucida Grande';
+    font-size: 35px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.sateliteImage {
+    width: 250px;
+    height: 150px;
+    border: 3px solid rgb(169, 228, 241);
+    border-radius: 10px;
+}
+
+.stargateImage {
+    width: 320px; 
+    height: 230px;
+    border: 3px solid rgb(169, 228, 241);
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+table {
+    border-collapse: collapse;
+    text-align: center;
+    color: rgb(94, 110, 112);
+    font-family: 'Lucida Grande';
+  }
+  
+  table, th, td {
+    border: 2px solid black;
+    padding: 20px;
+  }
