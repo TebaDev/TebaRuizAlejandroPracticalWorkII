@@ -151,3 +151,47 @@ table, th, td {
     height: 30px;
     margin-left: 20px;
 }
+
+li {
+    color: rgb(94, 110, 112);
+    font-family: 'Lucida Grande';
+    font-size: 20px;
+    flex-direction: column;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.numberImages {
+    width: 400px; 
+    height: 400px;
+    margin-right: 40px;
+}
+
+input {
+    border: 2px solid rgb(169, 228, 241);
+    border-radius: 20px;
+    width: 500px;
+    height: 50px;
+}
+
+textarea {
+    border: 2px solid rgb(169, 228, 241);
+    border-radius: 20px;
+    width: 600px;
+    height: 54px;
+}
+
+button{
+    border: 2px solid rgb(169, 228, 241);
+    border-radius: 20px;
+    color: white;
+    background-color: rgb(169, 228, 241);
+    width: 150px;
+    height: 50px;
+}
+
+.infoImage {
+    width: 200px; 
+    height: 200px;
+    margin-right: 40px;
+}
