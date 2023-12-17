@@ -139,9 +139,15 @@ table {
     text-align: center;
     color: rgb(94, 110, 112);
     font-family: 'Lucida Grande';
-  }
+}
   
-  table, th, td {
-    border: 2px solid black;
-    padding: 20px;
-  }
+table, th, td {
+  border: 4px solid rgb(169, 228, 241);
+  padding: 20px;
+}
+
+.linkIcon {
+    width: 30px;
+    height: 30px;
+    margin-left: 20px;
+}
